@@ -6,7 +6,7 @@ If you don't have a VPS yet, please choose a small Ubuntu 16.04 virtual machine 
 Usage:
 
 ```
-sudo wget https://raw.githubusercontent.com/MadStuntman/AeriumX-Beta-Masternode-Installer/master/install.sh && sudo chmod 755 install.sh && sudo ./install.sh
+wget https://raw.githubusercontent.com/MadStuntman/AeriumX-Beta-Masternode-Installer/master/install.sh && sudo chmod 755 install.sh && ./install.sh
 ```
   
   
