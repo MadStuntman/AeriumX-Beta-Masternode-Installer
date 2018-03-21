@@ -9,7 +9,6 @@
 #
 #   Install AeriumX Beta masternode on clean VPS with Ubuntu 16.04 
 #
-# 
 ################################################################################
 
 echo && echo 
@@ -19,10 +18,6 @@ echo "*  This script will install and configure your AeriumX Beta masternode.   
 echo "*                                                                          *"
 echo "****************************************************************************"
 echo && echo
-
-echo "Do you want to start the installation? [y/n]"
-read DOSETUP
-if [[ $DOSETUP =~ "y" ]] || [[ $DOSETUP =~ "Y" ]] ; then
 
 # Install necessary stuff
 
@@ -103,7 +98,3 @@ Altaird -daemon
 
 echo && echo 
 echo "Your AeriumX Masternode is now ready! Start it with the controller wallet!"
-else
-echo && echo 
-echo "Exit. Nothing has been done!"
-fi
