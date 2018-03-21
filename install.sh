@@ -22,7 +22,7 @@ echo && echo
 
 echo "Do you want to start the installation? [y/n]"
 read DOSETUP
-if [[ $DOSETUP =~ "y" ]] ; then
+if [[ $DOSETUP =~ "y" ]] || [[ $DOSETUP =~ "Y" ]] ; then
 
 # Install necessary stuff
 
